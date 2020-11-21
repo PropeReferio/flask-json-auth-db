@@ -233,4 +233,4 @@ def delete_todo(current_user, todo_id):
 	return jsonify({'message': "todo deleted"})
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run(debug=True, port=5001)
